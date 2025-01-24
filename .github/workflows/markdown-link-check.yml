@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   markdown-link-check:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     # check out the latest version of the code
     steps:
       - uses: actions/checkout@v4
